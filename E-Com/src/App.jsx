@@ -72,6 +72,7 @@ const App = () => {
     )
   }
 
+
   const clearCart = () => {
     setCart([])
     localStorage.setItem('cart', JSON.stringify([]))

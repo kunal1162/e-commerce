@@ -33,7 +33,7 @@ export default function Navbar({ cartCount = 0, onCartClick, searchQuery, setSea
             </div>
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">BUCKY'S STORE</p>
-              <h1 className="text-xl font-semibold text-slate-900">Product Catalog</h1>
+              {/* <h1 className="text-xl font-semibold text-slate-900">Product Catalog</h1> */}
             </div>
           </div>
 
